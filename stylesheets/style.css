@@ -1,0 +1,47 @@
+* {
+    width: 1024px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+
+body {
+    background: url(../images/background.jpg) no-repeat center top fixed;
+    background-size: cover;
+    font-weight: bold;
+}
+
+h1 {
+    padding-top: 200px;
+    font-size: 2.5em;
+    font-style: italic;
+    color: olive;
+}
+
+.avatar {
+    float: left;
+    width: 200px;
+    padding: 100px;
+    border-radius: 50%;
+}
+
+table {
+    font-size: 1.5em;
+}
+
+td:first-child {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: burlywood;
+}
+
+.forfooter {
+    width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 10px;
+    }
+}
